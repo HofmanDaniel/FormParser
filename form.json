@@ -1,0 +1,31 @@
+[
+    {
+        "type":"input",
+        "label":"nome",
+        "nome":"nome",
+        "placeholder":"Daniel"
+    },
+    {
+        "type":"radio",
+        "label":"sex",
+        "nome":"nome",
+        "elements":["m","f"]
+    },
+    {
+        "type":"checkbox",
+        "label":"acconsento",
+        "nome":"nome"
+    },
+    {
+        "type":"select",
+        "label":"acconsento",
+        "nome":"nome",
+        "options":["valore1","valore2"]
+    },
+    {
+        "type":"area",
+        "label":"descrizione",
+        "nome":"nome",
+        "placeholder":"blah blah"
+    }
+]
