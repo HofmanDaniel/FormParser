@@ -1,6 +1,3 @@
-/*text, select, checkbox radiobutton e textarea */
-
-
 //richiesta del template
 var requestURL = "form.json";
 var request = new XMLHttpRequest();
