@@ -1,31 +1,66 @@
 [
     {
-        "type":"input",
-        "label":"nome",
-        "nome":"nome",
-        "placeholder":"Daniel"
+        "tag": "input",
+        "attr": {
+            "name": "nome",
+            "type": "text",
+            "placeholder": "Nome"
+        }
     },
     {
-        "type":"radio",
-        "label":"sex",
-        "nome":"nome",
-        "elements":["m","f"]
+        "label":"paese: ",
+        "tag": "select",
+        "attr": {
+            "name": "paese"
+        },
+        "options": [
+            "Italy",
+            "Swiss",
+            "Germany"
+        ]
     },
     {
-        "type":"checkbox",
-        "label":"acconsento",
-        "nome":"nome"
+        "tag": "span",
+        "content":"Genere:"
     },
     {
-        "type":"select",
-        "label":"acconsento",
-        "nome":"nome",
-        "options":["valore1","valore2"]
+        "label": ">man",
+        "tag": "input",
+        "attr": {
+            "name": "genere",
+            "type": "radio"
+        }
     },
     {
-        "type":"area",
-        "label":"descrizione",
-        "nome":"nome",
-        "placeholder":"blah blah"
+        "label": ">woman",
+        "tag": "input",
+        "attr": {
+            "name": "genere",
+            "type": "radio"
+        }
+    },
+    {
+        "label": ">walmart bag",
+        "tag": "input",
+        "attr": {
+            "name": "genere",
+            "type": "radio"
+        }
+    },
+    {
+        "tag": "textarea",
+        "attr": {
+            "name": "descrizione",
+            "type": "text",
+            "placeholder": "Descrizione"
+        }
+    },
+    {
+        "label":"accetto le condizioni: ",
+        "tag":"input",
+        "attr":{
+            "name": "condizioni",
+            "type": "checkbox"
+        }
     }
 ]
